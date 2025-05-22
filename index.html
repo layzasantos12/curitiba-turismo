@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Turismo que encanta - Curitiba</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<button id="toggleMode">� Alternar Modo</button>
+<header>
+<h1>� Curitiba: Turismo que Conecta �</h1>
+<p>Campo e cidade unidos por experiências únicas</p>
+<nav>
+<ul>
+<li><a href="#rural">Turismo Rural</a></li>
+<li><a href="#urbano">Turismo Urbano</a></li>
+<li><a href="#galeria">Galeria</a></li>
+<li><a href="#depoimentos">Depoimentos</a></li>
+<li><a href="#contato">Participe</a></li>
+</ul>
+</nav>
+</header>
+<main class="container">
+<section id="rural" class="secao">
+<h2>� Turismo Rural</h2>
+<p>Ao redor de Curitiba, o campo revela tradições, sabores e natureza.
+Conheça:</p>
+<ul>
+<li><strong>Caminho do Vinho:</strong> degustações e culinária em São José dos
+Pinhais</li>
+
+<li><strong>Colônia Witmarsum:</strong> cultura alemã e produtos
+artesanais</li>
+<li><strong>Feiras Coloniais:</strong> produtos frescos direto dos
+produtores</li>
+<li><strong>Hospedagem rural:</strong> viva um fim de semana no campo</li>
+</ul>
+</section>
+<section id="urbano" class="secao">
+<h2>� Turismo Urbano</h2>
+<p>Na cidade, a modernidade e a cultura se encontram:</p>
+<ul>
+<li><strong>Jardim Botânico:</strong> o cartão postal de Curitiba</li>
+<li><strong>Parque Tanguá:</strong> mirantes e natureza dentro da cidade</li>
+<li><strong>Centro Histórico:</strong> arquitetura, museus e arte</li>
+<li><strong>Mercado Municipal:</strong> sabores locais e diversidade</li>
+</ul>
+</section>
+<section id="galeria" class="secao">
+<h2>� Galeria de Conexões</h2>
+<div class="grid">
+<figure> <img
+
+src="https://png.pngtree.com/thumb_back/fw800/background/20220824/pngtree-botanical-
+garden-greenhouse-surrounded-by-a-public-park-in-curitiba-paran%C3%A1-brazil-photo-
+image_48206664.jpg"
+
+<figcaption>Jardim Botânico</figcaption> </figure>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Caminho_do_Vinho_SJP.jp
+g/320px-Caminho_do_Vinho_SJP.jpg" alt="Caminho do Vinho">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Parque_Tangua.jpg/320px
+-Parque_Tangua.jpg" alt="Parque Tanguá">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Colonia_Witmarsum.jpg/3
+20px-Colonia_Witmarsum.jpg" alt="Colônia Witmarsum">
+</div>
+</section>
+<section id="depoimentos" class="secao">
+<h2>� Depoimentos</h2>
+<p><strong>“Nunca imaginei que tão perto da cidade existiam colônias tão lindas
+e cheias de história!”</strong> – Mariana, 16 anos</p>
+<p><strong>“Passear de ônibus turístico e depois visitar a feira do produtor me
+fez entender a conexão do campo com a cidade.”</strong> – Lucas, 15 anos</p>
+</section>
+<section id="contato" class="secao">
+<h2>� Participe do Mapa Afetivo</h2>
+<form>
+<label for="nome">Seu Nome:</label>
+
+<input type="text" id="nome" required>
+<label for="mensagem">Qual lugar rural ou urbano de Curitiba marcou
+você?</label>
+<textarea id="mensagem" rows="4" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2025 - Festejando a Conexão Campo-Cidade | Projeto escolar Curitiba</p>
+</footer>
+<script>
+const toggle = document.getElementById('toggleMode');
+toggle.addEventListener('click', () => {
+document.body.classList.toggle('dark');
+});
+</script>
+</body>
+</html>
